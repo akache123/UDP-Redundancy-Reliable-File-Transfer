@@ -1,7 +1,5 @@
 # UDP-Redundancy-Reliable-File-Transfer
 
-**README Description:**
-
 ## Overview
 This project extends reliable file transfer using UDP by incorporating file redundancy. The client sends a file to multiple servers simultaneously, ensuring successful transmission even under conditions of packet loss or reordering. The servers reassemble and store the file locally, providing redundancy and ensuring the correct file is transmitted.
 
